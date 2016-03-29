@@ -21,6 +21,7 @@ public class DeretFibonacci {
         for(int i = 2; i < num; i++){
             fibo[i] = fibo[i-1] + fibo[i-2];
         }
+        /*ka maaaf saya lupa cara ngejumlahinnya*/
         
         for(int i = 0; i < num; i++){
             System.out.print(fibo[i] + " ");
